@@ -18,7 +18,7 @@ li {
 
 body {
     background-color: whit;
-   
+
 }
 
 /* Header start */
@@ -26,7 +26,7 @@ header {
     /* background-color: purple; */
     width: 1047px;
     margin: 0 auto;
-   
+
 }
 
 /* Nav Start */
@@ -79,57 +79,35 @@ header {
 
 /* Banner start */
 .Banner {
-    /* background-color: tomato; */
-    /* margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
+
     background: rgba(255, 144, 14, 0.1);
+    position: absolute;
+    width: 862px;
+    height: 225px;
+    left: 229px;
+    top: 205px;
+    display: flex;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
 
-position: absolute;
-width: 862px;
-height: 225px;
-left: 229px;
-top: 205px;
-display: flex;
 
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 75px;
-text-align: center;
-
-/* Dark 01 */
-
-color: #131313;
-
- 
 
 }
 
 
 .Banner_Desc {
-    /* background-color: yellow; */
-    /* width: 50%;
+    left: 529px;
+    top: 205px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%; */
-
-
-left: 529px;
-top: 205px;
-display: flex;
-justify-content: center;
-align-items: center;
 
 }
-
-
-
-
-
 
 .Banner_Desc_Layer {
     /* width: 452px;
@@ -138,11 +116,6 @@ align-items: center;
 }
 
 .Banner_Title {
-
-    /* width: 862px;
-    height: 225px;
-    left: 529px;
-    top: 205px; */
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
@@ -160,51 +133,334 @@ align-items: center;
     height: 52px;
     left: 526px;
     top: 379px;
-
     font-family: 'Work Sans';
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
-
     text-align: center;
     color: #727272;
 
 
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .Banner_Pic {
-    /* background-color: green; */
-    background: url(../images/Circle\ design.svg);
-    padding: 20px;
+    background: rgba(255, 144, 14, 0.1);
 }
 
 
 .mc {
-    width: 440px;
-    height: 414px;
+    position: absolute;
+    width: 750px;
+    height: 325px;
+    left: 60px;
+    top: 325px;
 }
 
 /* Banner end */
+
+.images-size {
+    width: 342px;
+    height: 342px;
+
+}
+
+.features {
+    position: absolute;
+    width: 342px;
+    height: 342px;
+    left: 301px;
+    top: 1007px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    background: #FF900E;
+    border-radius: 41px;
+    text-align: center;
+    border-radius: 41px;
+    color: white;
+    border: 0;
+    position: absolute;
+    width: 196px;
+    height: 44px;
+
+}
+
+.list {
+    position: absolute;
+    width: 537px;
+    height: 304px;
+    left: 700px;
+    top: 250px;
+    font-size: 15px;
+
+
+}
+
+.year_image {
+    position: absolute;
+    width: 1440px;
+    height: 1059px;
+    left: 500px;
+    top: 1800px;
+
+}
+
+
+.enjoy {
+    position: absolute;
+    width: 586px;
+    height: 78px;
+    left: 240px;
+    top: 1800px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.mobile{
+    position: absolute;
+    width: 586px;
+    height: 78px;
+    left: 240px;
+    top: 1920px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+.Drag{
+    position: absolute;
+    width: 586px;
+    height: 78px;
+    left: 240px;
+    top: 2050px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+
+.Design{
+    position: absolute;
+    width: 586px;
+    height: 78px;
+    left: 240px;
+    top: 2150px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+.Easy{
+    position: absolute;
+    width: 586px;
+    height: 78px;
+    left: 240px;
+    top: 2250px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+.Exerience{
+
+    background: #FF900E;
+  
+    text-align: center;
+    border-radius: 41px;
+    color: white;
+    border: 0;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+
+}
+
+.Facts{
+    
+    position: absolute;
+    width: 586px;
+    height: 78px;
+    left: 240px;
+    top: 2800px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+.img{
+   
+}
+
+
+.ref_img{
+    width: 84px;
+    height: 26px;
+  
+}
+
+.Reference{
+    /* background-color: yellow; */
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    font-size: 12px;
+    
+    
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin: 0 auto;
+
+   
+}
+
+
+.Reference{
+    
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+  
+}
+
+
+.footer{
+    font-size: 8px;
+    position: absolute;
+    width: 586px;
+    height: 78px;
+    left: 240px;
+    top: 3150px;
+    text-align: center;
+   
+   
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .nav{
+        width: 100%;
+         flex-direction: column;
+       /* background-color: yellow; */
+    }
+    .nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header{
+        width: 100%;
+        /* background-color: tomato; */
+    }
+    .Banner{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .Banner_Desc{
+        width: 100%;
+        text-align: center;
+    }
+    .Banner_Pic{
+        text-align: center;
+        width: 100%;
+    }
+    .mc{
+        width: 350px;
+        height: 414px;
+    }
+    .Banner_Pic{
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 60px;
+    }
+    .Reference{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .main{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .Products{
+        width: 100%;
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .product{
+        width: 100%;
+    }
+    .Card_body{
+        text-align: left;
+    }
+
+    .Feature{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+/* For Mobile Display End */
+
+/* For Tablet Media Query start */
+@media only screen and (min-width: 577px) and (max-width: 992px)  {
+    .header{
+        width: 100%;
+        margin: 0 20px;
+    }
+    nav{
+        margin-top: 30px;
+    }
+    .Banner{
+        width: 100%;
+       
+    }
+    .Reference{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .main{
+        width: 100%;
+    }
+    .Products{
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 10px;
+        width: 100%;
+        padding: 50px;
+    }
+    .Feature{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
